@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Groot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="header-title">Groot</h1>
+    <nav class="header-nav">
+      <a href="index.html" class="header-link">Home</a>
+      <a href="pricing.html" class="header-link">Pricing</a>
+      <a href="privacy.html" class="header-link">Terms & Privacy</a>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div class="space-y-8 lg:space-y-12 text-center">
+          <h1  style="font-size: 35px" class="text-3xl sm:text-5xl font-bold">
+            Handy tool that will
+            <br>
+            convert your <span id="transition-text" class="transition-opacity custom-text-color opacity-100" onmouseover="changeText()">XLSX</span>
+  
+
+            file to
+            <br>
+            <span class="custom-text-color">JSON</span> file.
+          </h1>
+          <p class="max-w-sm font-medium text-xl">
+            Need to convert XLSX, CSV, XLS to JSON ? Our tool simplifies the
+            <br>
+            process, making file conversion effortless.
+          </p>
+        </div>
+        <div class="flex justify-center">
+          <button class="convert-button group relative inline-flex items-center justify-center overflow-hidden">
+            <span>Convert</span>
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1">
+              <path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <span class="text-sm text-neutral-800 dark:text-neutral-200">Made by <a href="https://twitter.com/nilaygofficial" target="_blank" id="nilaygofficial">@nilaygofficial</a></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
